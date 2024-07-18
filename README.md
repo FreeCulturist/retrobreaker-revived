@@ -1,4 +1,4 @@
-# Retro Breaker - a brick breaker game with a retro style for Android
+# Retro Breaker Revived - a brick breaker game with a retro style for Android
 
 ## Introduction
 

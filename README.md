@@ -2,9 +2,11 @@
 
 ## Introduction
 
-Retro Breaker is a simple brick breaker game with an old, retro appearance. This game was created for the Mobile Computing course (MAC5743) on IME-USP, 2014 class. It has the following game mechanics:
+This is a fork of Retro Breaker to get it building on modern SDK.
 
-- **Retro graphics**: no textures, just plain colors and simple animation;
+Retro Breaker is a simple brick breaker game with an old, retro appearance.
+
+- **Retro graphics**: no textures, just plain colors and simple animations;
 - **Sound effects**: different sound effects for each possible game event (e.g. hitting a brick, hitting a wall, hitting the paddle...);
 - **Score multiplier**: each time the ball breaks a brick, it increases the score multiplier for the next hit. If the ball hits the paddle, this score multiplier is reduced. If the player loses a life, this score multiplier is reset. This is to incentive the player to hit consecutive bricks;
 - **Multiple brick types**: there is four types of brick:
@@ -29,7 +31,7 @@ If you exit the application the game is paused automatically. You don't need to 
 
 ## Use the source, Luke!
 
-This game was build using [Android Studio](http://developer.android.com/intl/en-us/sdk/index.html), so just click in `File->Open` and select `RetroBreaker` subfolder. You need Android SDK 4.4.2, since the application does use newer funcionality when it makes sense (like [Holo theme](https://developer.android.com/design/style/themes.html) and [Immersive mode](https://developer.android.com/training/system-ui/immersive.html)).
+This game is built using [Android Studio](http://developer.android.com/intl/en-us/sdk/index.html), so just click in `File->Open` and select `RetroBreaker` subfolder. You need Android SDK 4.4.2, since the application does use newer funcionality when it makes sense (like [Holo theme](https://developer.android.com/design/style/themes.html) and [Immersive mode](https://developer.android.com/training/system-ui/immersive.html)).
 
 The code is organized in the following way:
 
@@ -56,7 +58,7 @@ This application should work on any Android device from version 2.2 up to the mo
 - AOC Breeze 7'' 7Y2241 (running Android 4.1.1);
 - Android emulator (tested on 2.2, 2.3.3 and 4.4.2 versions).
 
-The game should work better if your device has a screen ratio of 16:9 (or 9:16 if you're couting portrait mode), since this is the internal resolution assumed by the code. Any other screen ratio will add borders to the game.
+The game works best if your device has a screen ratio of 16:9, since this is the internal resolution assumed by the code. Any other screen ratio will add borders to the game.
 
 ## Known bugs
 
@@ -68,7 +70,9 @@ This code is licensed on MIT license (see `LICENSE` file for details) except if 
 
 ## Credits
 
-The game was created by [Hugo Vinicius Vaz Braga](http://www.ime.usp.br/~hbraga/) and [Thiago Kenji Okada](http://www.ime.usp.br/~thiagoko/) for MAC5743 course on IME-USP, 2014 class. Other people/companies that helped with the creation of this game includes:
+This game was created for the Mobile Computing course (MAC5743) on IME-USP, 2014 class.
+
+Created by [Hugo Vinicius Vaz Braga](http://www.ime.usp.br/~hbraga/) and [Thiago Kenji Okada](http://www.ime.usp.br/~thiagoko/) for MAC5743 course on IME-USP, 2014 class. Other people/companies that helped with the creation of this game includes:
 
 - [Alfredo Goldman vel Lejbman](http://www.ime.usp.br/~gold/): the teaching professor of this course;
 - [Top Free Games](http://www.topfreegames.com/): for the original code (TechTalkDemo) and the talk that they give showing how the actual mobile game market is;

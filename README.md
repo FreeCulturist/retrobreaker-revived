@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a fork of Retro Breaker to get it building on modern SDK.
+This is a fork of Retro Breaker to get it building on recent versions of Android Studio.
 
 Retro Breaker is a simple brick breaker game with an old, retro appearance.
 
@@ -31,7 +31,7 @@ If you exit the application the game is paused automatically. You don't need to 
 
 ## Use the source, Luke!
 
-This game is built using [Android Studio](http://developer.android.com/intl/en-us/sdk/index.html), so just click in `File->Open` and select `RetroBreaker` subfolder. You need Android SDK 4.4.2, since the application does use newer funcionality when it makes sense (like [Holo theme](https://developer.android.com/design/style/themes.html) and [Immersive mode](https://developer.android.com/training/system-ui/immersive.html)).
+This game is built using [Android Studio](http://developer.android.com/intl/en-us/sdk/index.html), so just click in `File->Open` and select `RetroBreaker` subfolder. You need Android SDK 4.4.2, since the application does use newer functionality when it makes sense (like [Holo theme](https://developer.android.com/design/style/themes.html) and [Immersive mode](https://developer.android.com/training/system-ui/immersive.html)).
 
 The code is organized in the following way:
 
